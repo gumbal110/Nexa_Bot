@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ### 5️⃣ Configurar .env
 Edita `.env` con tus credenciales:
 ```env
-TOKEN=tu_token_de_discord
+DISCORD_TOKEN=tu_token_de_discord
 CLIENT_ID=tu_client_id
 GUILD_ID=tu_guild_id
 ```
@@ -158,7 +158,7 @@ COLORS = {
 ## 🆘 Troubleshooting
 
 ### "Token not valid"
-- Verifica que el TOKEN en .env es correcto
+- Verifica que DISCORD_TOKEN en Railway o en .env es correcto
 - Copia nuevamente desde Discord Developer Portal
 
 ### "No module named discord"

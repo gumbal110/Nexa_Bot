@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ### 2️⃣ Configurar Token
 Edita `.env`:
 ```env
-TOKEN=tu_token_aqui
+DISCORD_TOKEN=tu_token_aqui
 CLIENT_ID=tu_client_id
 GUILD_ID=tu_guild_id
 ```
